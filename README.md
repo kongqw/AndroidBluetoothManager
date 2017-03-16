@@ -1,4 +1,36 @@
+[![](https://jitpack.io/v/kongqw/AndroidBluetoothManager.svg)](https://jitpack.io/#kongqw/AndroidBluetoothManager)
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+``` gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+
+``` gradle
+dependencies {
+        compile 'com.github.kongqw:AndroidBluetoothManager:1.0.0'
+}
+```
+
+# 效果图
+
+![效果图](https://github.com/kongqw/AndroidBluetoothManager/blob/master/gif/pic.png)
+
+![效果图](https://github.com/kongqw/AndroidBluetoothManager/blob/master/gif/gif.gif)
+
 # 基础功能
+
 
 ## 添加权限
 
