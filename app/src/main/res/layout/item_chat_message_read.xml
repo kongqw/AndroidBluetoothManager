@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_time_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#FF888888"
+        tools:text="2017-03-16 12:19:29" />
+
+    <TextView
+        android:id="@+id/tv_bluetooth_name_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time_read"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        tools:text="小米手机" />
+
+    <TextView
+        android:id="@+id/tv_bluetooth_mac_address_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time_read"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/tv_bluetooth_name_read"
+        android:layout_toRightOf="@id/tv_bluetooth_name_read"
+        android:textSize="10sp"
+        tools:text="12:34:56:78:90:AB" />
+
+    <ImageView
+        android:id="@+id/iv_icon_read"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_bluetooth_name_read"
+        android:src="@drawable/head" />
+
+    <TextView
+        android:id="@+id/tv_message_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bluetooth_name_read"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/iv_icon_read"
+        android:layout_toRightOf="@id/iv_icon_read"
+        android:maxWidth="200dp"
+        tools:text="测试消息测试消息测试消息测试消息测试消息测试消息测试消息测试消息
+        测试消息测试消息测试消息测试消息测试消息测试消息测试消息测试消息测试消息测试消息" />
+
+</RelativeLayout>
